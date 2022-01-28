@@ -428,9 +428,15 @@ stagingDebugRuntimeClasspath - Runtime classpath of compilation 'stagingDebug' (
 |    +--- com.google.firebase:firebase-iid-interop:17.0.0 (*)
 |    +--- com.google.firebase:firebase-measurement-connector:18.0.0 (*)
 |    \--- com.squareup.okhttp3:okhttp:3.12.1 -> 3.12.10 (*)
-+--- com.chibatching.kotpref:kotpref:2.6.0
-+--- com.chibatching.kotpref:gson-support:2.6.0
-|    \--- com.chibatching.kotpref:kotpref:2.6.0
++--- com.chibatching.kotpref:kotpref:2.13.1
+|    \--- androidx.annotation:annotation:1.1.0 -> 1.2.0
++--- com.chibatching.kotpref:gson-support:2.13.1
+|    \--- com.chibatching.kotpref:kotpref:2.13.1 (*)
++--- com.chibatching.kotpref:initializer:2.13.1
+|    +--- com.chibatching.kotpref:kotpref:2.13.1 (*)
+|    \--- androidx.startup:startup-runtime:1.0.0
+|         +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
+|         \--- androidx.tracing:tracing:1.0.0 (*)
 +--- com.github.chrisbanes:PhotoView:2.3.0
 |    \--- androidx.appcompat:appcompat:1.0.0 -> 1.3.1 (*)
 +--- com.ryanjeffreybrooks:indefinitepagerindicator:1.0.10
@@ -454,44 +460,44 @@ stagingDebugRuntimeClasspath - Runtime classpath of compilation 'stagingDebug' (
 |    |    +--- androidx.compose.runtime:runtime:1.0.5
 |    |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0 -> 1.5.2 (*)
 |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
-|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
-|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    +--- androidx.compose.ui:ui-geometry:1.0.5
 |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
 |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    +--- androidx.compose.ui:ui-util:1.0.5
-|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
-|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    +--- androidx.compose.ui:ui-graphics:1.0.5
 |    |    +--- androidx.annotation:annotation:1.2.0
 |    |    +--- androidx.compose.ui:ui-unit:1.0.5
 |    |    |    +--- androidx.compose.ui:ui-geometry:1.0.5 (*)
 |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
-|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    |    \--- androidx.compose.ui:ui-util:1.0.5 (*)
 |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    +--- androidx.compose.ui:ui-util:1.0.5 (*)
-|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31 -> 1.5.32
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
 |    +--- androidx.compose.ui:ui-text:1.0.5
 |    |    +--- androidx.compose.ui:ui-graphics:1.0.5 (*)
 |    |    +--- androidx.compose.ui:ui-unit:1.0.5 (*)
 |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
-|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31 -> 1.5.32
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
 |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    +--- androidx.compose.runtime:runtime-saveable:1.0.5 (*)
 |    |    +--- androidx.compose.ui:ui-util:1.0.5 (*)
-|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    |    +--- androidx.collection:collection:1.1.0 (*)
 |    |    \--- androidx.core:core:1.5.0 (*)
 |    +--- androidx.compose.ui:ui-unit:1.0.5 (*)
 |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
-|    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31 -> 1.5.32
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
 |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0 -> 1.5.2 (*)
 |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    +--- androidx.compose.ui:ui-util:1.0.5 (*)
-|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    +--- androidx.autofill:autofill:1.0.0
 |    |    \--- androidx.core:core:1.1.0 -> 1.5.0 (*)
 |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0 -> 1.5.2 (*)
@@ -503,9 +509,7 @@ stagingDebugRuntimeClasspath - Runtime classpath of compilation 'stagingDebug' (
 |    +--- androidx.lifecycle:lifecycle-viewmodel:2.3.0 -> 2.3.1 (*)
 |    \--- androidx.profileinstaller:profileinstaller:1.0.4
 |         +--- androidx.annotation:annotation:1.2.0
-|         \--- androidx.startup:startup-runtime:1.0.0
-|              +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
-|              \--- androidx.tracing:tracing:1.0.0 (*)
+|         \--- androidx.startup:startup-runtime:1.0.0 (*)
 +--- androidx.compose.ui:ui-tooling:1.0.5
 |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
 |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
@@ -513,13 +517,13 @@ stagingDebugRuntimeClasspath - Runtime classpath of compilation 'stagingDebug' (
 |    +--- androidx.compose.ui:ui-tooling-preview:1.0.5
 |    |    +--- androidx.annotation:annotation:1.2.0
 |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
-|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    +--- androidx.compose.ui:ui-tooling-data:1.0.5
 |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
 |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    +--- androidx.compose.ui:ui:1.0.5 (*)
-|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
-|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    +--- androidx.compose.material:material:1.0.5
 |    |    +--- androidx.compose.animation:animation-core:1.0.5
 |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
@@ -528,7 +532,7 @@ stagingDebugRuntimeClasspath - Runtime classpath of compilation 'stagingDebug' (
 |    |    |    +--- androidx.compose.ui:ui:1.0.5 (*)
 |    |    |    +--- androidx.compose.ui:ui-unit:1.0.5 (*)
 |    |    |    +--- androidx.compose.ui:ui-util:1.0.5 (*)
-|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    |    +--- androidx.compose.foundation:foundation:1.0.5
 |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.2.0
 |    |    |    +--- androidx.compose.animation:animation:1.0.5
@@ -539,31 +543,31 @@ stagingDebugRuntimeClasspath - Runtime classpath of compilation 'stagingDebug' (
 |    |    |    |    |    +--- androidx.compose.ui:ui:1.0.5 (*)
 |    |    |    |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    |    |    |    +--- androidx.compose.ui:ui-util:1.0.5 (*)
-|    |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31 -> 1.5.32
+|    |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
 |    |    |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    |    |    +--- androidx.compose.ui:ui:1.0.5 (*)
 |    |    |    |    +--- androidx.compose.ui:ui-geometry:1.0.5 (*)
 |    |    |    |    +--- androidx.compose.ui:ui-util:1.0.5 (*)
-|    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31 -> 1.5.32
+|    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
 |    |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    |    +--- androidx.compose.ui:ui:1.0.5 (*)
-|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31 -> 1.5.32
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
 |    |    |    +--- androidx.compose.foundation:foundation-layout:1.0.5 (*)
 |    |    |    +--- androidx.compose.ui:ui-text:1.0.5 (*)
 |    |    |    \--- androidx.compose.ui:ui-util:1.0.5 (*)
 |    |    +--- androidx.compose.material:material-icons-core:1.0.5
 |    |    |    +--- androidx.compose.ui:ui:1.0.5 (*)
-|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 |    |    +--- androidx.compose.material:material-ripple:1.0.5
 |    |    |    +--- androidx.compose.foundation:foundation:1.0.5 (*)
 |    |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
-|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31 -> 1.5.32
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
 |    |    |    +--- androidx.compose.animation:animation:1.0.5 (*)
 |    |    |    \--- androidx.compose.ui:ui-util:1.0.5 (*)
 |    |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    |    +--- androidx.compose.ui:ui:1.0.5 (*)
 |    |    +--- androidx.compose.ui:ui-text:1.0.5 (*)
-|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31 -> 1.5.32
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31
 |    |    +--- androidx.compose.animation:animation:1.0.5 (*)
 |    |    +--- androidx.compose.foundation:foundation-layout:1.0.5 (*)
 |    |    \--- androidx.compose.ui:ui-util:1.0.5 (*)
@@ -572,7 +576,7 @@ stagingDebugRuntimeClasspath - Runtime classpath of compilation 'stagingDebug' (
 |         +--- androidx.compose.runtime:runtime-saveable:1.0.1 -> 1.0.5 (*)
 |         +--- androidx.activity:activity-ktx:1.3.1 (*)
 |         +--- androidx.compose.ui:ui:1.0.1 -> 1.0.5 (*)
-|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.21 -> 1.5.32 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.21 -> 1.5.31 (*)
 +--- androidx.compose.foundation:foundation:1.0.5 (*)
 +--- androidx.compose.material:material:1.0.5 (*)
 +--- com.google.android.material:compose-theme-adapter:1.0.5
@@ -581,7 +585,7 @@ stagingDebugRuntimeClasspath - Runtime classpath of compilation 'stagingDebug' (
 |    +--- androidx.compose.runtime:runtime:1.0.5 (*)
 |    +--- androidx.compose.material:material:1.0.5 (*)
 |    +--- com.google.android.material:material:1.1.0 (*)
-|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 -> 1.5.32 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.5.31 (*)
 +--- project :spotlight
 |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31 (*)
 |    \--- androidx.appcompat:appcompat:1.3.1 (*)
@@ -602,5 +606,5 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 See https://docs.gradle.org/7.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL in 2s
 1 actionable task: 1 executed
